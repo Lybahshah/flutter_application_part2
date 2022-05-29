@@ -53,103 +53,166 @@ class _MyHomePageState extends State<MyHomePage> {
    @override
   Widget build(BuildContext context) {
 	return Scaffold(
-	  body: GridView.count(
-		crossAxisCount: 3,
+	  body: GridView.count(crossAxisCount: 3,
+
+  crossAxisSpacing: 2,
+  mainAxisSpacing: 2,
+
   children: <Widget>[
 	Container(
-	  padding: const EdgeInsets.all(8),
+	  padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 20),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/1.jpg'),
-	          const Text('Lion',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	          TextButton(
+    child: const Text('Lion',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
-	  padding: const EdgeInsets.all(8),
+	  padding: const EdgeInsets.all(20),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/2.jpg'),
-	          const Text('Tiger',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Tiger',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/3.jpg'),
-	          const Text('Elephant',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Elephant',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/4.jpg'),
-	          const Text('Monkey',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Monkey',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/5.jpg'),
-	          const Text('Zebra',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Zebra',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/6.jpg'),
-	          const Text('Giraffe',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Giraffe',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/7.jpg'),
-	          const Text('Cheetah',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Cheetah',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/8.jpg'),
-	          const Text('Leopard',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Leopard',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/9.jpg'),
-	          const Text('Deer',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Deer',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/10.jpg'),
-	          const Text('Wolf',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Wolf',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/11.jpg'),
-	          const Text('Bear',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Bear',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   Container(
 	  padding: const EdgeInsets.all(8),
 	  child: Column(children: <Widget> [
                    Image.asset('assets/images/12.jpg'),
-	          const Text('Fox',style: TextStyle(backgroundColor: Color.fromARGB(255, 221, 214, 214)),)
-                       ],
+	           TextButton(
+    child: const Text('Fox',style:TextStyle(fontSize:16,fontWeight:FontWeight.bold,color:Colors.white) ),
+    style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.grey)),
+    onPressed: () {
+         // action on pressed
+    },
+)],
                 )
 	),
   ],
